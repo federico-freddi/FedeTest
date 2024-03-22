@@ -33,7 +33,7 @@ const UserDetailsPage = ({ user }) => {
     <>
       <ChakraProvider>
         <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-          Open
+          Info
         </Button>
         <Drawer
           isOpen={isOpen}
